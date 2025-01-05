@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="./css/output.css" />
+    <link rel="stylesheet" href="./css/utils.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=translate"
+    />
+  </head>
+  <body>
+    <!-- Background Section -->
+    <div class="background">
+      <div
+        class="logo w-[80%] flex items-center justify-between absolute top-0"
+      >
+        <img src="./imgs/logo.png" class="w-[15%]" alt="Netflix Logo" />
+        <div class="button flex items-center">
+          <div class="relative inline-block text-left">
+            <button
+              id="dropdownButton"
+              class="inline-flex justify-center w-full rounded-md border border-gray-300 shadow-sm px-4 py-1 bg-gray-800 text-sm font-medium text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+            >
+              <span class="material-symbols-outlined"> translate </span>English
+              <svg
+                class="-mr-1 ml-2 h-5 w-5"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.06 1.06l-4 4a.75.75 0 01-1.06 0l-4-4a.75.75 0 01.02-1.06z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+
+            <!-- Dropdown Menu -->
+            <div
+              id="dropdownMenu"
+              class="hidden origin-top-right absolute right-0 mt-2 w-36 rounded-md shadow-lg bg-gray-700 text-white ring-1 ring-black ring-opacity-5 focus:outline-none"
+            >
+              <div
+                class="py-1"
+                role="menu"
+                aria-orientation="vertical"
+                aria-labelledby="dropdownButton"
+              >
+                <a
+                  href="#"
+                  class="block px-4 py-2 text-sm hover:bg-gray-600 hover:text-gray-200"
+                  role="menuitem"
+                  >English</a
+                >
+                <a
+                  href="#"
+                  class="block px-4 py-2 text-sm hover:bg-gray-600 hover:text-gray-200"
+                  role="menuitem"
+                  >French</a
+                >
+              </div>
+            </div>
+          </div>
+          <button class="bg-red-600 text-white px-3 py-1 mx-2 rounded-md">
+            Sign In
+          </button>
+        </div>
+      </div>
+      <div class="content">
+        <h1 class="text-white text-6xl font-bold">
+          Unlimited movies, TV shows, and more.
+        </h1>
+        <h2 class="text-white text-lg font-bold mb-6 mt-4">
+          Watch anywhere. Cancel anytime.
+        </h2>
+        <p class="text-white text-md mt-4">
+          Ready to watch? Enter your email to create or restart your membership.
+        </p>
+        <form class="mt-4">
+          <input
+            type="email"
+            placeholder="Enter your email"
+            class="bg-gray-800 text-white p-2 text-lg w-[45%] rounded border border-white"
+          />
+          <button
+            class="bg-red-600 text-white text-lg p-2 w-[25%] mx-2 rounded"
+          >
+            Get Started
+          </button>
+        </form>
+      </div>
+    </div>
+    <!-- End of Background Section -->
+    <!-- cricular shape div code  -->
+    <div
+      class="bg-pink-700 absolute bottom-0 p-8 h-[18vh] clip-curve w-full"
+    >
+      <div
+        class="absolute bottom-0 text-white p-8 top-0 left-0 clip-curve w-full bg-black flex justify-center"
+      >
+        <div class="barContainer text-white w-[90vw] mt-12 flex justify-center">
+          <div class="icon mx-2">
+            <img
+              class="w-20 "
+              src="./imgs/Netflix-Popcorn.png"
+              alt=""
+            />
+          </div>
+          <div
+            class="bar h-20 flex gradient rounded-xl w-[77vw] justify-between items-center"
+          >
+            <div class="para p-3 ml-5">
+              <p class="text-lg">The Netflix you love for just $5.99.</p>
+              <p class="text-md">Get our most affordable, ad-supported plan.</p>
+            </div>
+            <div class="button">
+              <button
+                class="bg-gray-700 text-white p-2 rounded-md hover:bg-gray-800 mr-5"
+              >
+                Learn more
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="w-full">
+      <div class="bg-[#000000] max-h-full">hello</div>
+    </section>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
