@@ -24,3 +24,9 @@
  .gradient:hover{
     background: linear-gradient(90deg, #3f2752, #1d1c3e);
  }
+.card{
+    background: linear-gradient(160deg,  #192043 0%, #210d17 100%);
+}
+.card-icon{
+    color : linear-gradient(160deg,  #192043 0%, #210d17 100%);
+}
